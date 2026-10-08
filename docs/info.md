@@ -8,7 +8,7 @@ You can also include images in this folder and reference them in the markdown. E
 -->
 
 ## How it works
-
+ 
 A pushbutton and a switch are connected to a multiplexer; when the switch is off, the multiplexer's output corresponds to the pushbutton, sending a signal through an 8-flip-flop shift register that lights up the corresponding LEDs one by one. When the switch is turned on, the multiplexer outputs a single pulse into the shift register; upon reaching the end, the bit is fed back to the beginning, causing the LEDs to continue turning on and off in a loop.
 
 ## How to test
