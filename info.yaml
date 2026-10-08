@@ -16,7 +16,7 @@ project:
 # This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).
 pinout:
   # Inputs
-  ui[0]: "MODE_SEL"      # Selector de modo del mux + bit 0 del DIP
+  ui[0]: "SEL"      # Selector de modo del mux + bit 0 del DIP
   ui[1]: "SW1"           # Bit 1 del DIP switch
   ui[2]: "SW2"           # Bit 2 del DIP switch
   ui[3]: "SW3"           # Bit 3 del DIP switch
