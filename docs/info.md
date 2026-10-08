@@ -9,12 +9,12 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project work
+A pushbutton and a switch are connected to a multiplexer; when the switch is off, the multiplexer's output corresponds to the pushbutton, sending a signal through an 8-flip-flop shift register that lights up the corresponding LEDs one by one. When the switch is turned on, the multiplexer outputs a single pulse into the shift register; upon reaching the end, the bit is fed back to the beginning, causing the LEDs to continue turning on and off in a loop.
 
 ## How to test
 
-Explain how to use your project
+The LEDs are connected to outputs 0 through 7. With the switch closed, pressing the pushbutton should cause the LEDs to turn on and off one by one until the end is reached; when the switch is turned on, the LEDs will cycle on and off in a loop.
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+8 leds
